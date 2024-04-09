@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-top: 45px;
+}
+
+div{
+    height: 1090px;
+    width: 800px;
+    background-color: rgb(252, 206, 214);
+    margin: auto;
+}
+
+#titolo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(11, 11, 214);
+    padding-top: 7px;
+}
+
+img{
+    width: 200px;
+    height: 190px;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+#contenitore1{
+    width: 300px;
+    height: 675px;
+    overflow-wrap: break-word;
+    position: relative;
+    top: 40px;
+    right: 180px;
+}
+
+#testo1{
+    color: rgb(11, 11, 214);
+    font-weight: bold; 
+}
+
+#testo1::first-letter{
+    font-size: 24px;
+    font-style: oblique;     
+}
+
+#contenitore2{
+    width: 340px;
+    height: 690px;
+    overflow-wrap: break-word;
+    position: relative;
+    bottom: 628px;
+    left: 210px;
+}
+
+#testo2{
+    color: rgb(11, 11, 214);
+    font-weight: bold; 
+}
+
+a{
+    position: relative;
+    bottom: 600px;
+    left: 280px;
+}
